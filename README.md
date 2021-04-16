@@ -1,6 +1,8 @@
 
 # Getting Started
 
+Before continuing, make sure you have already followed the [protest-test-backend](https://github.com/jmrona/protected-test-backend) instructions.
+
 In the project directory, you can run:
 
 ### `npm install`
