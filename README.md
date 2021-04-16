@@ -1,4 +1,3 @@
-![home__light](https://user-images.githubusercontent.com/32115263/115055666-a6e43e80-9ed9-11eb-865e-24f65ba9ced6.png)
 
 # Getting Started
 
@@ -20,7 +19,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## Gallery
-![Dark theme](https://user-images.githubusercontent.com/32115263/115057591-27a43a00-9edc-11eb-9fde-99b1adfb4ac8.png)
+![Dark_theme](https://user-images.githubusercontent.com/32115263/115057591-27a43a00-9edc-11eb-9fde-99b1adfb4ac8.png)
+![Light_theme](https://user-images.githubusercontent.com/32115263/115055666-a6e43e80-9ed9-11eb-865e-24f65ba9ced6.png)
 ![register_screen](https://user-images.githubusercontent.com/32115263/115057581-26730d00-9edc-11eb-9844-794030ee9266.png)
 ![login_screen](https://user-images.githubusercontent.com/32115263/115057584-270ba380-9edc-11eb-9303-3ae035793c5a.png)
 ![create_user_light](https://user-images.githubusercontent.com/32115263/115057578-25da7680-9edc-11eb-89e8-270b1d9f861d.png)
