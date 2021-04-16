@@ -34,8 +34,16 @@ export const RegisterScreen = () => {
 			setHasError(['The username field is required']);
 		}
 
+		if (userName.length < 6) {
+			setHasError(['The username should have minimun 6 characters']);
+		}
+
 		if (password.length === 0) {
 			setHasError(['The password field is required']);
+		}
+
+		if (password.length < 6) {
+			setHasError(['The password should have minimun 6 characters']);
 		}
 
 		if (hasError.length > 0) {
