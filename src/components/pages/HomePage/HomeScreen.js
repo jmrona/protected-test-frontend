@@ -40,11 +40,11 @@ export const HomeScreen = () => {
 					handleOpenUpdateModal={handleOpenUpdateModal}
 					setUsers={setUsers}
 				/>
-				<div className={styles.row}>
-					<button onClick={handleOpenCreateModal}>
-						<span>+</span> Add new user
-					</button>
-				</div>
+			</div>
+			<div className={styles.row}>
+				<button onClick={handleOpenCreateModal}>
+					<span>+</span> Add new user
+				</button>
 			</div>
 			<Modal
 				title='Add new user'

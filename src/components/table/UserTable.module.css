@@ -2,6 +2,7 @@
 	width: 100%;
 	cursor: default;
 	text-overflow: ellipsis;
+	overflow: auto;
 }
 
 .table thead {

@@ -1,5 +1,11 @@
 import React, { useEffect } from 'react';
-import { Redirect, Switch, BrowserRouter as Router } from 'react-router-dom';
+import {
+	Redirect,
+	Switch,
+	BrowserRouter as Router,
+	Route,
+} from 'react-router-dom';
+import { PageNotFound } from '../components/pages/404/PageNotFound';
 import { HomeScreen } from '../components/pages/HomePage/HomeScreen';
 import { LoginScreen } from '../components/pages/LoginScreen/LoginScreen';
 import { RegisterScreen } from '../components/pages/RegisterScreen/RegisterScreen';
@@ -46,7 +52,7 @@ export const AppRouter = () => {
 					component={HomeScreen}
 					isAuthenticated={!!token}
 				/>
-				<Redirect to='/404' />
+				<Route to='/error_404' component={PageNotFound} />
 			</Switch>
 		</Router>
 	);

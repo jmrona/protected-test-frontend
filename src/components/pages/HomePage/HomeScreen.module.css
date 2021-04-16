@@ -18,24 +18,28 @@
 	display: flex;
 	flex-flow: row wrap;
 	padding: 1rem;
+	overflow: auto;
 }
 
 .row {
 	width: 100%;
-	height: fit-content;
 	display: flex;
-	justify-content: center;
+	align-items: flex-end;
+	justify-content: flex-end;
+	padding: 2rem;
 }
 
 .row button {
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	height: fit-content;
 	cursor: pointer;
 	border: 2px solid var(--bgColor);
 	border-radius: 5px;
 	color: var(--bgColor);
 	background: var(--green);
-	padding: 0 0.5rem;
+	padding: 0.5rem 1rem;
 	font-size: 1.2rem;
 	transition: 0.2s ease;
 }
