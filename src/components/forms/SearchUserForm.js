@@ -27,6 +27,7 @@ export const SearchUserForm = ({ setUsers }) => {
 				type='text'
 				onChange={handleInputChange}
 				name='search'
+				placeholder='Search username'
 				value={search}
 			/>
 			<button type='submit'>Search</button>
