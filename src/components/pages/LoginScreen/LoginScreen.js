@@ -10,8 +10,8 @@ export const LoginScreen = () => {
 	const [user, login] = useAuth();
 
 	const [formValues, handleInputChange] = useForm({
-		username: 'jmrona',
-		password: '1234567',
+		username: '',
+		password: '',
 	});
 
 	const { username, password } = formValues;
