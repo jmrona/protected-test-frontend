@@ -1,0 +1,35 @@
+:root {
+	--black: #161616;
+	--white: #e0e0e0;
+	--gray: #616161;
+	--grayLight: #949494;
+	--colorText: #161616;
+}
+
+html[theme='light'] {
+	--bgColor: #bac8db;
+	--bgContainerColor: #e9e9e9;
+	--colorText: #161616;
+	--shadowColor: #808da196;
+	--colorThead: #161616;
+	--colorTrHover: #c9c9c9;
+	--red: #e65050;
+	--orange: #e29c40;
+	--orangeDark: #c08436;
+	--green: #3ea80d;
+	--greenDark: #2c6d0e;
+}
+
+html[theme='dark'] {
+	--bgColor: #282c34;
+	--bgContainerColor: #acacac;
+	--colorText: #e0e0e0;
+	--shadowColor: #16161696;
+	--colorThead: #e0e0e0;
+	--colorTrHover: #929292;
+	--red: #d62a2a;
+	--orange: #c27f27;
+	--orangeDark: #c08436;
+	--green: #3ea80d;
+	--greenDark: #347c12;
+}

@@ -1,0 +1,51 @@
+.container {
+	height: 90vh;
+	width: 90vw;
+
+	display: flex;
+	flex-flow: column nowrap;
+
+	background-color: var(--bgContainerColor);
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 3px var(--shadowColor);
+
+	overflow: auto;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1rem;
+}
+
+.row {
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+}
+
+.row button {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	border: 2px solid var(--bgColor);
+	border-radius: 5px;
+	color: var(--bgColor);
+	background: var(--green);
+	padding: 0 0.5rem;
+	font-size: 1.2rem;
+	transition: 0.2s ease;
+}
+
+.row button span {
+	font-size: 1.5rem;
+	padding-right: 10px;
+}
+
+.row button:hover {
+	color: var(--black);
+	background: var(--greenDark);
+}

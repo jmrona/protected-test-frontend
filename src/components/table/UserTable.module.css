@@ -1,0 +1,72 @@
+.table {
+	width: 100%;
+	cursor: default;
+	text-overflow: ellipsis;
+}
+
+.table thead {
+	background: var(--bgColor);
+	color: var(--colorThead);
+}
+
+.table thead th {
+	text-align: left;
+	padding: 2px 5px;
+}
+
+.table tbody td {
+	text-align: left;
+	padding: 2px 5px;
+	border-bottom: 1px solid var(--bgColor);
+}
+
+.table tbody tr {
+	border-bottom: 1px solid var(--bgColor);
+	transition: 0.1s ease-in-out;
+}
+
+.table tbody tr:hover {
+	background: var(--colorTrHover);
+}
+
+.btns button {
+	border: 0;
+	margin: 2px;
+	cursor: pointer;
+	background: transparent;
+}
+
+.btns button:first-child {
+	border-radius: 5px;
+	border: 2px solid var(--orange);
+	transition: 0.2s ease;
+
+	fill: var(--orange);
+	transition: 0.2s ease;
+}
+
+.btns button:first-child:hover {
+	border-radius: 5px;
+	border: 2px solid transparent;
+	background-color: var(--orange);
+	fill: var(--black);
+}
+
+.btns button:last-child {
+	border-radius: 5px;
+	border: 2px solid var(--red);
+	transition: 0.2s ease;
+	fill: var(--red);
+	transition: 0.2s ease;
+}
+
+.btns button:last-child:hover {
+	border-radius: 5px;
+	border: 2px solid transparent;
+	background-color: var(--red);
+	fill: var(--black);
+}
+
+.center {
+	text-align: center !important;
+}
